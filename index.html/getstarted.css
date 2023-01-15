@@ -1,0 +1,402 @@
+*{
+    margin: 0; padding: 0;
+}
+nav{
+    width: 100%; height: 10vh;
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+    background:rgba(0,0,0,0.2);
+    position: fixed;
+    
+    
+}
+nav .logo{
+    width: 15%; text-align: center;
+    color: aqua;
+}
+
+nav .menu{
+    width: 30%; display: flex; justify-content: space-around;
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none; color: white;
+    display: block;
+    
+}
+header{
+    width: 100%; height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('cars.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+div.cardnamaste{
+   
+    border-radius: 16px;
+    width: 180px;
+    padding:0px;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms;
+    text-align: center;
+    
+    
+}
+.flexboxnamaste{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+h3.contact{
+    color: #eee;
+}
+.contact a{
+    text-decoration: none;
+    color: #eee;
+}
+
+div.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+
+}
+div.img1{
+    margin-right: 33px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.about{
+    width: 50%;
+    font-weight: 3px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+div.about p{
+    margin-top: 20px;
+    font-size: 30px;
+    width: 80%;
+    text-align: justify;
+    margin-left: 10%;
+    
+
+}
+h1.about1{
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 2px;
+    color: brown ;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 30px;
+
+    
+}
+div.cardt{
+  
+    border-radius: 16px;
+    width: 600px;
+    padding:0px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms;
+    margin-top: 10px;
+}
+div.cardf{
+   
+    border-radius: 16px;
+    width: 280px;
+    padding:10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms;
+    text-align: center;
+}
+h2.services {
+     font-weight: 3px;
+     color: brown;
+     text-align: center;
+     word-spacing: 4px;
+     font-size: 35px;
+
+}
+
+.cardP{
+    border-radius: 16px;
+    width: 360px;
+    padding:10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms;
+   
+}
+.cardR{
+    text-align: center;
+    
+    width: 800px;
+    padding:10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms;
+    border: 3px solid rgb(14, 13, 13);
+}
+
+.cardwc{
+    
+    width: 835px;
+    padding:10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+  
+}
+
+
+
+.card{
+    border: 1px solid rgb(228, 73, 73);
+    border-radius: 16px;
+    width: 315px;
+    padding:10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms;
+    
+}
+.card:hover{
+    
+    
+    border:1px solid #eee;
+    background-color: #eee;
+    border-radius: 22px;
+    
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+
+}
+.card-desc{
+    font-size: 20px;
+}
+.btn{
+    background-color: black;
+    border:none;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+.btn a{
+    text-decoration: none;
+    color: #eee;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: yellow;
+    height: 40px;
+    text-align: center;
+    font-weight: 5px;
+    font-size: large;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+
+
+.cardup{
+    
+   
+    width: 315px;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms;
+   
+    
+}
+.card-desc{
+    font-size: 14px;
+    
+    
+    
+}
+
+.flexboxup{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+   
+}
+.flexboxup h2 {
+    color: #eee;
+}
+
+.flexboxup h4{
+    color: #eee;
+}
+.flexboxup a {
+    text-decoration: none;
+    color: #eee;
+}
+
+@media screen and ( max-width:600px) {
+    nav{
+        width: 100%; height: 10vh;
+        color: white; display: flex; justify-content: space-between;
+        align-items: center; text-transform: uppercase;
+        background:rgba(0,0,0,0.2);
+        position: fixed;
+        
+        
+    }
+    nav .logo{
+        width: 10%; text-align: center;
+        color: aqua;
+        margin: 15px;
+    }
+    
+    
+    nav .menu{
+        width: 60%; 
+        margin: 10px;
+        justify-content:space-around;
+    }
+    
+    nav .menu a {
+        
+        text-decoration: none; color: white;
+        display: block;
+        justify-content: last baseline ;
+        justify-content: space-between;
+        
+    }
+    .flexboxnamaste{
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+        margin-right: 10px;
+
+    }
+    div.cardnamaste{
+   
+        border-radius: 16px;
+        width: 120px;
+        padding: 5px;
+        margin-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 200ms;
+        text-align: center;
+        margin-bottom: 100px;
+
+    }
+    h3.contact{
+        font-size: small;
+    }
+
+    h1.about1{
+        text-align: center;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        font-weight: 1px;
+        color: brown ;
+        font-size: 40px;
+        margin-top: 20px;
+
+    
+        
+    }
+
+    div.cardt{
+        border-radius: 16px;
+        width: 95%;
+        padding:10px;
+        margin: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 200ms;
+        margin-top: 25px;
+    }
+    div.about{
+         
+            font-weight: 3px;
+            color: black;
+            text-align: justify;
+            font-size: 10px;
+            width: 100%;
+ 
+       
+    }
+    
+    
+    div.about p{
+        text-align: justify;
+        display: flex;
+        font-size: 25px;
+        padding: 5px;
+        margin: 5px;
+        width: 100%;
+    }
+    div.cardf{
+        text-align: center;
+        
+        border-radius: 16px;
+        width: 315px;
+        padding:10px;
+        margin: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 200ms;
+    }
+    .cardP{
+        border-radius: 16px;
+        width: 360px;
+        padding:10px;
+        margin: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 200ms;
+        text-align: center;
+    }
+    .footer{
+        background-color: yellow;
+        height: 25px;
+        text-align: center;
+        font-weight: 3px;
+        font-size: medium;
+        
+        
+    }
+    
+    
+    nav .menu a {
+        width: 25%;
+        text-decoration: none; color: white;
+        display: block;
+    }
+    div.cardf{
+   
+        border-radius: 16px;
+        width: 200px;
+        padding:10px;
+        margin: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 200ms;
+        text-align: center;
+        font-size: large;
+    }
+}
